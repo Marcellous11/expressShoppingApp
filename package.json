@@ -1,19 +1,26 @@
 {
-  "name": "expressshoppinglist",
-  "version": "1.0.0",
-  "description": "",
-  "main": "shoppingApp.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.18.1",
-    "morgan": "^1.10.0"
-  },
-  "devDependencies": {
-    "supertest": "^6.2.4"
-  }
+	"name": "expressshoppinglist",
+	"version": "1.0.0",
+	"description": "",
+	"main": "shoppingApp.js",
+	"type": "commonjs",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Marcellous11/expressShoppingApp.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Marcellous11/expressShoppingApp/issues"
+	},
+	"homepage": "https://github.com/Marcellous11/expressShoppingApp#readme",
+	"dependencies": {
+		"express": "^4.18.1",
+		"nodemon": "^2.0.19"
+	}
 }
